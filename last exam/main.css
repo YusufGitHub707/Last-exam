@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    display: block;
+}
+
+.main {
+    width: 1720px;
+    height: 6017px;
+    background: #3B322D;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding: 0 120px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.header {
+    width: 1300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.namelogo {
+    text-transform: uppercase;
+    color: #EFE7E2;
+}
+
+.menu {
+    width: 540px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone {
+    width: 160px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.hero {
+    width: 1180px;
+    height: 1000px;
+    margin-left: 50px;
+    padding: 50px;
+    display: flex;
+    background: url(./img/bg.png);
+
+}
+
+.mainherotext {
+    width: 700px;
+    height: 154px;
+    color: white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 73px;
+    line-height: 110%;
+}
+
+.text {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.text2 {
+    width: 300px;
+    height: 54px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: white;
+}
+
+.herobutton {
+    width: 200px;
+    height: 70px;
+    background-color: #FF6E40;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    transform: translate(-830px, 800px);
+
+}
+
+.margin {
+    width: 1920px;
+    height: 670px;
+    background: #251D1A;
+    transform: translate(-120px, 0);
+}
+
+
+
+
+
+
+/* Aboutus */
+
+
+
+
+
+.heading {
+    width: 1180px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textaboutus {
+    width: 580px;
+    height: 60px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: white;
+    text-align: center;
+}
+
+.textunderabout {
+    width: 580px;
+    height: 80px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #EFE7E2;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.images {
+    width: 1280px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imgleft {
+    width: 600px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img1 {
+    width: 580px;
+    height: 337px;
+    background: url(./img/photo.png);
+}
+
+.img2 {
+    width: 280px;
+    height: 280px;
+    background: url(./img/photo\ \(1\).png);
+}
+
+.img3 {
+    width: 280px;
+    height: 280px;
+    background: url(./img/photo\ \(2\).png);
+    margin-left: 20px;
+}
+
+.imgright {
+    width: 600px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img4 {
+    width: 280px;
+    height: 280px;
+    background: url(./img/photo\ \(4\).png);
+    margin-right: 20px;
+
+}
+
+.img5 {
+    width: 280px;
+    height: 280px;
+    background: url(./img/photo\ \(5\).png);
+
+}
+
+.img6 {
+    width: 580px;
+    height: 337px;
+    background: url(./img/photo\ \(3\).png);
+}
+
+.underall {
+    width: 678px;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.bttn {
+    width: 432px;
+    height: 68px;
+    background: #FF6E40;
+    border: none;
+    color: white;
+}
+
+.textunder {
+    width: 216px;
+    height: 68px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Testimonial */
+
+
+
+
+
+
+.heading {
+    width: 1180px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.texttestimonial {
+    width: 580px;
+    height: 60px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: white;
+    text-align: center;
+}
+
+.textundertestimonial {
+    width: 350px;
+    height: 80px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #EFE7E2;
+
+}
+
+.testimonialall {
+    width: 1920px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.testimonial {
+    width: 280px;
+    height: 550px;
+}
+
+.firsttext {
+    width: 150px;
+    height: 21px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.secondtext {
+    width: 277px;
+    height: 120px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.thirdtext {
+    width: 133px;
+    height: 19px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FF6E40;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+/* price */
+
+
+
+
+
+
+
+.heading {
+    width: 1180px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textourprice {
+    width: 580px;
+    height: 60px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: white;
+    text-align: center;
+}
+
+.textunderourprice {
+    width: 500px;
+    height: 80px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #EFE7E2;
+}
+
+.priceall {
+    width: 1180px;
+    height: 598px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text1 {
+    width: 153px;
+    height: 40px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
+    color: #EFE7E2;
+}
+
+.Allprice {
+    width: 280px;
+    height: 218px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cards {
+    width: 1180px;
+    height: 579px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.outtext {
+    width: 172px;
+    height: 25px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 173%;
+    color: #EFE7E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    width: 40px;
+    height: 25px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    text-align: right;
+    color: #B7AAA2;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.outprice {
+    width: 28px;
+    height: 24px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.priceelement {
+    height: 600px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* map */
+
+
+
+
+
+
+
+
+.headingcontact {
+    width: 1180px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    width: 1920px;
+    height: 650px;
+    background: url(./img/Rectangle\ 48.png);
+    padding: 60px 370px;
+    margin-left: -120px;
+}
+
+.mapcontact {
+    width: 480px;
+    height: 530px;
+    background-color: #251D1A;
+    padding: 65px 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.textcontact {
+    width: 192px;
+    height: 60px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.phonenumber {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #FFFFFF;
+}
+
+.email {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #FFFFFF;
+}
+
+.locationcord {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #FFFFFF;
+}
+
+.time1 {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.alltime,
+.allemail,
+.allnumber,
+.alllocation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 31px;
+    width: 385px;
+    height: 54px;
+}

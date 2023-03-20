@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+.main {
+    width: 1920px;
+    height: 6017px;
+    background: #3B322D;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding: 0 120px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.header {
+    width: 1300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.namelogo {
+    text-transform: uppercase;
+    color: #EFE7E2;
+}
+
+.menu {
+    width: 540px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone {
+    width: 160px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.hero {
+    width: 1180px;
+    height: 420px;
+    background: url(./img/bg\ \(1\).png);
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.item-main-text {
+    width: 707px;
+    height: 231px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.item-undermain-text {
+    width: 228px;
+    height: 54px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #EFE7E2;
+    margin-top: 32px;
+}
+
+.master {
+    width: 1280px;
+    height: 900px;
+}
+
+.frame19 {
+    width: 1180px;
+    height: 180px;
+    background: #251D1A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.namemaster {
+    width: 230px;
+    height: 120px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #EFE7E2;
+
+}
+
+
+.description-master {
+    width: 280px;
+    height: 81px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B7AAA2;
+}
+
+.second-description-master {
+    width: 263px;
+    height: 54px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B7AAA2;
+}
+
+img {
+    margin: 10px;
+}
+
+
+
+.masters-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 51px;
+    width: 258px;
+    height: 68px;
+    background: #FF6E40;
+    color: white;
+    font-size: 20px;
+    transform: translate(461px, 30px)
+}
+
+
+.map {
+    width: 1920px;
+    height: 650px;
+    background: url(./img/Rectangle\ 48.png);
+    padding: 60px 370px;
+    margin-left: -120px;
+}
+
+.mapcontact {
+    width: 480px;
+    height: 530px;
+    background-color: #251D1A;
+    padding: 65px 60px;
+}
+
+
+.textcontact {
+    width: 192px;
+    height: 60px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.phonenumber {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #FFFFFF;
+}
+
+.email {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #FFFFFF;
+}
+
+.locationcord {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #FFFFFF;
+}
+
+.time1 {
+    width: 300px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.alltime,
+.allemail,
+.allnumber,
+.alllocation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 31px;
+    width: 385px;
+    height: 54px;
+}
